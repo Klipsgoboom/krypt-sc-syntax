@@ -1,8 +1,8 @@
 Krypt-Sc Browser:
-h - heading
-p - paragraph
-title - title
-img - image
+h - h'this is how you make a heading'
+p - p'this is how you make a paragraph'
+title - title 'This text is a title'
+img - img (image)
 
 
 C++, Lua, JS distributions:
