@@ -1,9 +1,15 @@
 Krypt-Sc Browser:
+The first line of your website must be kryptsc
+The last line of your website must be |
+
 h - h'this is how you make a heading'
 p - p'this is how you make a paragraph'
 title - title 'This text is a title'
-img - img (image)
-
+img - img (image) (make sure to use an IMAGE not a Decal)
+hyperlink(displaytext, url)
+copybox(text) - a box that you can copy text from
+align - (0=left, 1=center, 2 = right)
+colorFromHex(hex) - set color of text and stuff
 
 C++, Lua, JS distributions:
 
