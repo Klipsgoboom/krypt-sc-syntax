@@ -1,4 +1,6 @@
 Krypt-Sc Browser:
+**Change krypt web image support to match the rest
+
 The first line of your website must be kryptsc
 The last line of your website must be |
 
@@ -14,6 +16,8 @@ colorFromHex(hex) - set color of text and stuff
 C++, Lua, JS distributions:
 
 rgb(0-255,0-255,0-255)
+
+img(link, x, y, width, height)
 
 coordx(number)
 coordy(number)
