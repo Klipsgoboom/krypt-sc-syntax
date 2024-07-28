@@ -1,18 +1,22 @@
 Krypt-Sc Browser:
 **Change krypt web image support to match the rest
 
+**Krypt browser does not support "", it only supports ''
+
 The first line of your website must be kryptsc
 The last line of your website must be |
 
 h - h'this is how you make a heading'
 p - p'this is how you make a paragraph'
 title - title 'This text is a title'
-img - img (image) (make sure to use an IMAGE not a Decal)
+img - img (rbx image, html image) (make sure to use an IMAGE not a Decal) (provide both if you want it to support cross platform)
 hyperlink(displaytext, url)
 copybox(text) - a box that you can copy text from
 align - (0=left, 1=center, 2 = right)
 colorFromHex(hex) - set color of text and stuff
+br - separate elements
 
+File types: .kryptge is a game engine file, .kryptsc is an executable, .kd is a data file
 C++, Lua, JS distributions:
 
 rgb(0-255,0-255,0-255)
@@ -24,8 +28,8 @@ coordy(number)
 
 settext(string)
 
-save(dataName, var1) *requires additional module
-load(dataName, var1) *requires additional module
+save(dataName, var1) *supported natively in C++, requires additional for js*
+load(dataName, var1) *supported natively in C++, requires additional for js*
 deletefile(dataName) = deletes specified file
 deleteall = deletes all saved data
 
